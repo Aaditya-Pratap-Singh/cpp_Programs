@@ -8,7 +8,7 @@ public:
         cout << "Animal makes a sound" << endl;
     }
 };
-
+ 
 // Derived class 1
 class Dog : public Animal {
 public:
