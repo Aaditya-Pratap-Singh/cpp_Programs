@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+class Person {
+private:
+    int age; // Hidden data
+
+public:
+    // Setter
+    void setAge(int a) {
+        age = a;
+    }
+
+    // Getter
+    int getAge() {
+        return age;
+    }
+};
+
+int main() {
+    Person p;
+
+    p.setAge(20);
+    cout << "Age: " << p.getAge(); // Outputs: Age: 20
+
+    return 0;
+}
