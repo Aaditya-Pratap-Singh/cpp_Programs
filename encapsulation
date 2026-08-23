@@ -6,7 +6,7 @@ private:
     int age; // Hidden data
 
 public:
-    // Setter
+    // Setter 
     void setAge(int a) {
         age = a;
     }
