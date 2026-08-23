@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+// Base class
+class Animal {
+public:
+    virtual void sound() {
+        cout << "Animal makes a sound" << endl;
+    }
+};
+
+// Derived class 1
+class Dog : public Animal {
+public:
+    void sound() {
+        cout << "Dog barks: Woof!" << endl;
+    }
+};
+
+// Derived class 2
+class Cat : public Animal {
+public:
+    void sound() {
+        cout << "Cat meows: Meow!" << endl;
+    }
+};
+
+int main() {
+    // Parent pointers pointing to different child objects
+    Animal* a1 = new Dog();
+    Animal* a2 = new Cat();
+
+    // Same function call, different behavior (Polymorphism)
+    a1->sound(); // Outputs: Dog barks: Woof!
+    a2->sound(); // Outputs: Cat meows: Meow!
+
+    return 0;
+}
