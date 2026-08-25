@@ -7,7 +7,7 @@ private:
 
 public:
     // Setter 
-    void setAge(int a) {
+    void setAge(int a) { 
         age = a;
     }
 
