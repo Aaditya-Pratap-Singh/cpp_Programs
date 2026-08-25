@@ -6,7 +6,7 @@ class Animal {
 public:
     virtual void sound() {
         cout << "Animal makes a sound" << endl;
-    }
+    } 
 };
  
 // Derived class 1
