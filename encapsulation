@@ -3,7 +3,7 @@ using namespace std;
 
 class Person {
 private:
-    int age; // Hidden data
+    int age; // Hidden data 
 
 public:
     // Setter 
