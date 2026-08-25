@@ -8,7 +8,7 @@ public:
         cout << "I can eat!" << endl; 
     }
 };
-
+ 
 // Derived class (Child) inherits from Animal
 class Dog : public Animal { 
 public:
