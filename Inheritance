@@ -9,7 +9,7 @@ public:
     }
 };
   
-// Derived class (Child) inherits from Animal
+// Derived class (Child) inherits from Animal 
 class Dog : public Animal { 
 public:
     void bark() {
