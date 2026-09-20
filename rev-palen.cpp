@@ -6,7 +6,7 @@ int main()
 	cout<<"Enter the value of n: ";
 	cin>>n;
 	int temp=n;
-	while(n>0){
+	while(n>0){ 
 		digit=n%10;
 		rev=(rev*10)+digit;
 		n=n/10;
