@@ -6,7 +6,7 @@ int main()
 	int r,c,i,j;
 	cout<<"Enter the value of row and column :"<<endl ;
 	cin>>r>>c;
-	int a[r][c];
+	int a[r][c]; 
 	int b[r][c];
 	int sum[r][c];
 	
