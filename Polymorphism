@@ -9,7 +9,7 @@ public:
     } 
 };
  
-// Derived class 1
+// Derived class 1 
 class Dog : public Animal {
 public: 
     void sound() {
