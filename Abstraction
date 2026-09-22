@@ -4,7 +4,7 @@ using namespace std;
 // Abstract Class (Interface)
 class Animal {
 public: 
-    // Pure virtual function (hides the internal implementation)
+    // Pure virtual function (hides the internal implementation) 
     virtual void makeSound() = 0;
 };  
 
