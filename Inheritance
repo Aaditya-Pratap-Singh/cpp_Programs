@@ -4,7 +4,7 @@ using namespace std;
 // Base class (Parent)
 class Animal {
 public:
-    void eat() {
+    void eat() { 
         cout << "I can eat!" << endl;  
     }
 };
