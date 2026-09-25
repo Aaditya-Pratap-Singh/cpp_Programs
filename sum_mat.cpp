@@ -6,7 +6,7 @@ int main()
 	int r,c,i,j;
 	cout<<"Enter the value of row and column :"<<endl ;
 	cin>>r>>c;
-	int a[r][c]; 
+	int a[r][c];
 	int b[r][c];
 	int sum[r][c];
 	
@@ -24,7 +24,7 @@ int main()
 		}
 	}
 	
-	cout<<"Display the element of first matrix :"<<endl;
+	cout<<"Display the element of first matrix :\n";//we can also use << endl instead
 	for(i=0;i<r;i++)
     {
     	for(j=0;j<c;j++)
