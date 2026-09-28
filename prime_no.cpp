@@ -7,7 +7,7 @@ int main()
 	cout<<"Enter the value of n";
 	cin>>n;
 	for(int i=2;i<n;i++)
-	{
+	{ 
 	    if(n%i==0)
 	    count++;
     }
