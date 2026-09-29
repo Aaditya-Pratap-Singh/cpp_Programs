@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
 	float l,b,area,peri,h;
-	cout<<"Enter the value of l,b and h"<<endl;
+	cout<<"Enter the value of l,b and h"<<endl; 
 	cin>>l>>b>>h;
 	area=0.5*(h*b);
 	peri=l+b+h;
