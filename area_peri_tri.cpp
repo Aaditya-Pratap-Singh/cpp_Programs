@@ -1,5 +1,5 @@
 //claculate the area and perimeter of triangle
-#include<iostream>
+#include<iostream> 
 using namespace std;
 int main(){
 	float l,b,area,peri,h;
