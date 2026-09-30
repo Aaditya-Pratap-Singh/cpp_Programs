@@ -4,7 +4,7 @@ using namespace std;
 // Base class
 class Animal {
 public:
-    virtual void sound() {
+    virtual void sound() { 
         cout << "Animal makes a sound" << endl;
     }  
 };
