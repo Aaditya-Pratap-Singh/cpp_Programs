@@ -3,7 +3,7 @@ using namespace std;
 
 // Base class (Parent)
 class Animal {
-public:
+public: 
     void eat() { 
         cout << "I can eat!" << endl;   
     }
