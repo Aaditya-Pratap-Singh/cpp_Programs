@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int l,b,area,peri;
+	int l,b,area,peri; 
 	cout<<"Enter the value of l and b"<<endl; 
 	cin>>l>>b;  
 	area=l*b; 
