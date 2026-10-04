@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 	float l,b,area,peri,h;
 	cout<<"Enter the value of l,b and h"<<endl; 
-	cin>>l>>b>>h;
+	cin>>l>>b>>h; 
 	area=0.5*(h*b);
 	peri=l+b+h; 
 	cout<<"The area of triangle is"<<area<<endl;
