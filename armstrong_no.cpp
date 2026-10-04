@@ -7,7 +7,7 @@ int main() {
     cout << "Enter a positive integer: ";
     cin >> n;
     temp = n;
-    int original = n; 
+    int original = n;  
     while (original != 0) {
         original /= 10; 
         count++;
