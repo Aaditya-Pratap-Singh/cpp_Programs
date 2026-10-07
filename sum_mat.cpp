@@ -1,7 +1,7 @@
 //addition of two matrix
 #include<iostream>
 using namespace std;
-int main()
+int main() 
 {
 	int r,c,i,j;
 	cout<<"Enter the value of row and column :"<<endl ;
