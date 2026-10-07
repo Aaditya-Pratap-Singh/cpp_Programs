@@ -7,7 +7,7 @@ int main()
 	cout<<"Enter the value od N ";
 	cin>>n;
 	while(n>0){
-		rem=n%10;
+		rem=n%10; 
 		sum+=rem;
 		n /= 10;
 	}
