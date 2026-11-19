@@ -8,7 +8,7 @@ public:
     virtual void makeSound() = 0; 
 };
  
-// Derived Class provides the actual implementation
+// Derived Class provides the actual implementation 
 class Dog : public Animal {
 public:
     void makeSound() {
