@@ -15,7 +15,7 @@ public:
     void sound() { 
         cout << "Dog barks: Woof!" << endl;
     }
-};
+}; 
 
 // Derived class 2
 class Cat : public Animal {
