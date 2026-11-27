@@ -9,7 +9,7 @@ public:
 };
  
 // Derived Class provides the actual implementation 
-class Dog : public Animal {
+class Dog : public Animal { 
 public:
     void makeSound() {
         cout << "Woof Woof!" << endl;
