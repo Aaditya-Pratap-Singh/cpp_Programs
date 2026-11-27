@@ -18,7 +18,7 @@ public:
 
 int main() {
     Dog d;
-    d.makeSound(); // User only calls the action, implementation is hidden
+    d.makeSound(); // User only calls the action, implementation is hidden 
 
     return 0;
 }
