@@ -10,7 +10,7 @@ public:
 };
   
 // Derived class 1 
-class Dog : public Animal { 
+class Dog : public Animal {  
 public:  
     void sound() { 
         cout << "Dog barks: Woof!" << endl;
